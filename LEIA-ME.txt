@@ -1,0 +1,47 @@
+COMO USAR ESTE SITE
+====================
+
+Arquivos:
+  index.html            página inicial (currículo/portfólio)
+  livros.html            página com o resumo completo e a capa de cada livro
+  novos_desafios.html    página sobre a nova formação em Psicologia
+
+As três páginas têm um menu de navegação no topo (início / livros / novos desafios).
+
+1. Fotos (usadas em index.html e novos_desafios.html)
+   Salve as fotos em "images/", com os nomes:
+     images/foto1.jpg       (retrato usado no topo do site)
+     images/foto2.jpg       (foto usada na seção "Sobre")
+     images/psicologia.jpg  (foto usada na página "novos_desafios.html")
+
+2. Capas dos livros (usadas em livros.html)
+   Salve as seis capas em "images/", com os nomes:
+     images/capa01.png   Novas Tecnologias da Informação e Comunicação
+     images/capa02.png   Pensamento Computacional
+     images/capa03.png   Inteligência Artificial
+     images/capa04.png   Internet das Coisas (IoT)
+     images/capa05.png   Robótica
+     images/capa06.png   Gamificação, Metaverso e Realidade Aumentada
+   Se usar outra extensão (.jpg, .jpeg), ajuste o nome dentro de livros.html
+   (procure por src="images/capa01.png" etc.).
+
+3. Livros em PDF
+   Coloque os seis arquivos dentro da pasta "_livros/", nomeados assim:
+     _livros/livro01-novas-tecnologia-da-informacao.pdf
+     _livros/livro02-pensamento-computacional.pdf
+     _livros/livro03-inteligencia-artificial.pdf
+     _livros/livro04-internet-das-coisas.pdf
+     _livros/livro05-robotica.pdf
+     _livros/livro06-gamificacao-metaverso-realidade-aumentada.pdf
+
+4. Contato
+   O e-mail já está configurado como weney.araujo@edu.se.df.gov.br.
+   Troque o link do LinkedIn na seção "Contato" de index.html pelo seu, se necessário.
+
+5. Publicar
+   A pasta inteira (index.html + livros.html + novos_desafios.html + images/ + _livros/)
+   pode ser hospedada em qualquer servidor estático (GitHub Pages, Netlify, cPanel etc.)
+   — é só subir tudo junto, mantendo essa mesma estrutura de pastas.
+
+Observação: o site não usa nenhuma fonte, ícone ou estilo externo — tudo
+funciona offline, sem depender de conexão com a internet.
